@@ -199,8 +199,8 @@ const HomePage: React.FC<HomePageProps> = ({ user, onLogout }) => {
                   <p className="text-sm text-teal-700">Access lecture notes and resources</p>
                 </button>
                 <button className="p-4 text-left bg-purple-50 hover:bg-purple-100 rounded-lg transition-colors border border-purple-200">
-                  <h5 className="font-semibold text-purple-900 mb-2">Academic Progress</h5>
-                  <p className="text-sm text-purple-700">View grades and performance metrics</p>
+                  <h5 className="font-semibold text-purple-900 mb-2">Attendance Record</h5>
+                  <p className="text-sm text-purple-700">Theory and Practical</p>
                 </button>
               </>
             ) : (
